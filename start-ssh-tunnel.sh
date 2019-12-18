@@ -1,6 +1,9 @@
 #!/bin/bash
 
-BASEDIR=/home/mars/mars-admin
+# @reboot /home/pi/mars-admin/start-ssh-tunnel.sh
+# 0 7 * * * /home/pi/mars-admin/start-ssh-tunnel.sh
+
+BASEDIR=/home/pi/mars-admin
 
 source $BASEDIR/config.txt
 

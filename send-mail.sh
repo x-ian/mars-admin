@@ -1,18 +1,18 @@
 #!/bin/bash
 
-BASEDIR=/home/mars/mars-admin
+BASEDIR=/home/pi/mars-admin
 
 source $BASEDIR/config.txt
 source $BASEDIR/ssmtp.config
 
 TIMESTAMP=`date +%Y%m%d-%H%M%S`
 
-SUBJECT="mars $1 ($DEVICE_NAME,$SSH_TUNNEL_PORT)"
+SUBJECT="$1 ($DEVICE_NAME,$SSH_TUNNEL_PORT)"
 BODY=$2
 SENDER=$AuthUser
 #RECEIVER=$RECEIVER already part of config.txt
 
-TEMP_MAIL=`mktemp /home/mail-backlog/$TIMESTAMP-XXXXXX`.sh
+TEMP_MAIL=`mktemp /home/pi/mail-backlog/$TIMESTAMP-XXXXXX`.sh
 echo "From: $SENDER
 To: $RECEIVER
 Subject: $SUBJECT
