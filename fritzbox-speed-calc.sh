@@ -2,10 +2,12 @@
 
 # ./fritzbox-speed-calc.sh > fritzbox-speed-rearranged.csv
 
+BASEDIR=$(dirname "$(realpath -s "$0")")
+
 PREVIOUS_SENT=''
 PREVIOUS_RECEIVE=''
 
-input="fritzbox-speed.csv"
+input="$BASEDIR/fritzbox-query.log"
 while IFS= read -r line
 do
 #  echo "$line"
