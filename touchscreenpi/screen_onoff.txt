@@ -1,0 +1,5 @@
+crontab
+
+0 6 * * * /root/bin/screen_on.sh
+30 22 * * * /root/bin/screen_off.sh
+
