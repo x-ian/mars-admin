@@ -3,6 +3,7 @@
 BASEDIR=/home/pi/mars-admin
 
 source $BASEDIR/config.txt
+source $BASEDIR/ssmtp.config
 
 TIMESTAMP=`date +%Y%m%d-%H%M%S`
 
@@ -21,7 +22,7 @@ $BODY" > $TEMP_MAIL.mail
 
 # place mail job in backlog of mails
 echo "#!/bin/bash
-/usr/bin/msmtp -C $MSMTP_CONFIG $RECEIVER < $TEMP_MAIL.mail > $TEMP_MAIL.exit 2>&1
+/usr/sbin/ssmtp -C $SSMTP_CONFIG $RECEIVER < $TEMP_MAIL.mail > $TEMP_MAIL.exit 2>&1
 # if [ $? -eq 0 ]; then # used to work, doesnt anymore...
 if [ ! -s "$TEMP_MAIL.exit" ]; then
 	rm -f $TEMP_MAIL*
