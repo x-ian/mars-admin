@@ -12,6 +12,7 @@ BODY=$2
 SENDER=$AuthUser
 #RECEIVER=$RECEIVER already part of config.txt
 
+mkdir /home/pi/mail-backlog
 TEMP_MAIL=`mktemp /home/pi/mail-backlog/$TIMESTAMP-XXXXXX`.sh
 echo "From: $SENDER
 To: $RECEIVER
