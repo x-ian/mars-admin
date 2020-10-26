@@ -23,7 +23,7 @@ do
     if [[ ! $l =~ \# ]]; then
         if [ ! -z "$l" ]; then
   	  /bin/sleep 1
-  	  /bin/ping -c 4 $l  >> $LOG.tmp
+  	  /bin/ping -c 10 $l  >> $LOG.tmp
 	  if [ $? -eq 0 ]; then
   	    echo  
   	    #echo "$l" reachable >> $LOG
