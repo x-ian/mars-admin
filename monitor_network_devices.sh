@@ -5,7 +5,7 @@
 
 # best done with a daily cronjob like 0 7 * * * /home/marsPortal/misc/monitor_network_devices.sh
 
-BASEDIR=/home/pi/mars-admin
+BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
 
 source $BASEDIR/config.txt
 
@@ -23,7 +23,7 @@ do
     if [[ ! $l =~ \# ]]; then
         if [ ! -z "$l" ]; then
   	  /bin/sleep 1
-  	  /bin/ping -c 4 $l  >> $LOG.tmp
+  	  /bin/ping -c 10 $l  >> $LOG.tmp
 	  if [ $? -eq 0 ]; then
   	    echo  
   	    #echo "$l" reachable >> $LOG

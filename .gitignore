@@ -4,3 +4,4 @@ msmtp.config
 mate
 monitor_network_devices.txt
 monitor_network_devices_history.log
+mail-backlog
