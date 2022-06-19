@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=/home/pi/mars-admin
+BASEDIR=`dirname $0`
 
 source $BASEDIR/config.txt
 
