@@ -4,7 +4,7 @@ BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd
 
 source $BASEDIR/config.txt
 
-#sleep 60
+sleep 60
 
 # PFSENSE / FreeBSD
 # for some reasons it seems as at least in the logs the systems gets signal 15 twice, but at least
