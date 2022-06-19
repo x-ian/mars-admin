@@ -1,8 +1,18 @@
 # mars-admin
 
+### mail prep
+
+```
+sudo apt install msmtp
+cp msmtp.config.sample msmtp.config
+chmod go-rwx msmtp.config
+sudo apt install apparmor-utils
+sudo aa-disable msmtp
+```
 
 ### example crontabs
 
+```
 @reboot /home/pi/mars-admin/mail-after-startup.sh
 @reboot /home/pi/mars-admin/start-ssh-tunnel.sh
 @reboot /home/pi/mars-admin/start-ssh-http-tunnel.sh
@@ -12,4 +22,4 @@
 1 * * * * /home/pi/mars-admin/monitor_hue_devices_summary.sh > /var/www/html/hue
 */30 * * * * /home/pi/mars-admin/process-mail-backlog.sh
 */5 * * * * /home/pi/mars-admin/fritzbox-query.sh
-
+```

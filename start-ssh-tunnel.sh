@@ -3,7 +3,7 @@
 # @reboot /home/pi/mars-admin/start-ssh-tunnel.sh
 # 0 7 * * * /home/pi/mars-admin/start-ssh-tunnel.sh
 
-BASEDIR=/home/pi/mars-admin
+BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
 
 source $BASEDIR/config.txt
 
