@@ -5,6 +5,6 @@ DEVICE_NAME=new-device
 
 # mail notifications
 # also adjust values of this ssmtp config file
-SSMTP_CONFIG=/home/mars/mars-admin/ssmtp.config
+MSMTP_CONFIG=/home/mars/mars-admin/msmtp.config
 RECEIVER=cneumann@marsgeneral.com
 
