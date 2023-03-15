@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASEDIR=/home/pi/mars-admin
+BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
 
 source $BASEDIR/config.txt
 
@@ -11,8 +11,8 @@ BODY=$2
 SENDER=$AuthUser
 #RECEIVER=$RECEIVER already part of config.txt
 
-mkdir /home/pi/mail-backlog
-TEMP_MAIL=`mktemp /home/pi/mail-backlog/$TIMESTAMP-XXXXXX`.sh
+mkdir $BASEDIR/mail-backlog
+TEMP_MAIL=`mktemp $BASEDIR/mail-backlog/$TIMESTAMP-XXXXXX`.sh
 echo "From: $SENDER
 To: $RECEIVER
 Subject: $SUBJECT

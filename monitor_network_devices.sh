@@ -5,7 +5,7 @@
 
 # best done with a daily cronjob like 0 7 * * * /home/marsPortal/misc/monitor_network_devices.sh
 
-BASEDIR=/home/pi/mars-admin
+BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
 
 source $BASEDIR/config.txt
 
