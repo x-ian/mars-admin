@@ -22,10 +22,9 @@ sudo aa-disable msmtp
 1 * * * * /home/pi/mars-admin/monitor_hue_devices_summary.sh > /var/www/html/hue
 */30 * * * * /home/pi/mars-admin/process-mail-backlog.sh
 */5 * * * * /home/pi/mars-admin/fritzbox-query.sh
+```
 
-### mars-backup
-
-Time Machine on SMB share
+### Time Machine on SMB share
 
 * https://ubuntu.com/tutorials/install-and-configure-samba#4-setting-up-user-accounts-and-connecting-to-share
 * https://wiki.samba.org/index.php/Configure_Samba_to_Work_Better_with_Mac_OS_X
@@ -34,7 +33,7 @@ Time Machine on SMB share
 * https://www.truenas.com/community/threads/timemachine-backups-extremely-slow-to-smb-share-12-0u6.96106/
 * https://eclecticlight.co/consolation-t2m2-and-log-utilities/
 
-Syncthing
+### Syncthing
 
 * limited by many small files, ideally excluding most of them. 
 * simple check for # of files ```for d in .*/; do echo "$d" >> file-count && find "$d" | wc -l >> file-count; done```
