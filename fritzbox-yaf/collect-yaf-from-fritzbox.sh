@@ -2,6 +2,10 @@
 
 BASEDIR=/home/pi/mars-admin/fritzbox-yaf
 
+sleep 60
+
+PATH=$PATH:/usr/local/bin:/usr/bin
+
 # This is the address of the router
 FRITZIP=http://192.168.1.1
 
