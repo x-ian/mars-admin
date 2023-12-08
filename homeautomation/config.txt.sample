@@ -1,0 +1,5 @@
+#!/bin/bash
+
+GRAFANA_API_KEY='key'
+GRAFANA_ADMIN_PASSWORD='admin password'
+
