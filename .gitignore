@@ -5,3 +5,8 @@ mate
 monitor_network_devices.txt
 monitor_network_devices_history.log
 mail-backlog
+fritzbox-yaf/yaf_done/
+fritzbox-yaf/yaf_work/
+fritzbox-yaf/yaf/
+fritzbox-yaf/yaf.log
+fritzbox-yaf/nohup.out
