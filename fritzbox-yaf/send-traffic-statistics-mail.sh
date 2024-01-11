@@ -1,12 +1,16 @@
 #!/bin/bash
 
-BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
+PATH=$PATH:/usr/local/bin:/usr/bin
 
-source $BASEDIR/config.txt
+###BASEDIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]:-$0}"; )" &> /dev/null && pwd 2> /dev/null; )";
+BASEDIR=/home/pi/mars-admin/fritzbox-yaf
 
-SUBJECT="test"
+source $BASEDIR/../config.txt
 
-BODY="`cat /tmp/traffic-statistics.html`"
+curl 192.168.1.9:8000/traffic-month.php >/tmp/traffic-statistics.html
 
-$BASEDIR/send-html-mail.sh "$SUBJECT" "$BODY"
+#mysql -u $MYSQL_USER -p$MYSQL_PASSWD $MYSQL_DB -H < $BASEDIR/traffic-statistics.sql > /tmp/traffic-statistics.html
 
+SUBJECT="fritzbox traffic stats"
+BODY="$(cat /tmp/traffic-statistics.html)"
+$BASEDIR/../send-html-mail.sh "$SUBJECT" "$BODY"

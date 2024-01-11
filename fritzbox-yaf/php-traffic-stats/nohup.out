@@ -1,0 +1,44 @@
+[Wed Jan 10 18:03:24 2024] 192.168.1.174:51960 [200]: /index.php
+[Thu Jan 11 10:13:58 2024] 192.168.1.174:54784 [200]: /index.php
+[Thu Jan 11 10:17:33 2024] 192.168.1.174:54995 [200]: /index.php
+[Thu Jan 11 10:17:34 2024] 192.168.1.174:54994 [404]: /favicon.ico - No such file or directory
+[Thu Jan 11 10:19:21 2024] 192.168.1.174:55111 [200]: /index.php
+[Thu Jan 11 10:20:58 2024] 192.168.1.174:55210 [200]: /index.php
+[Thu Jan 11 10:21:21 2024] 192.168.1.174:55211 [200]: /index.php
+[Thu Jan 11 10:21:31 2024] 192.168.1.174:55262 [200]: /index.php
+[Thu Jan 11 10:22:12 2024] 192.168.1.174:55273 [200]: /index.php
+[Thu Jan 11 10:23:54 2024] 192.168.1.174:55455 [200]: /index.php
+[Thu Jan 11 10:24:28 2024] 192.168.1.174:55454 [200]: /index.php
+[Thu Jan 11 10:24:54 2024] 192.168.1.174:55483 [200]: /index.php
+[Thu Jan 11 10:25:08 2024] 192.168.1.174:55531 [200]: /index.php
+[Thu Jan 11 10:25:23 2024] 192.168.1.174:55546 [200]: /index.php
+[Thu Jan 11 10:25:34 2024] 192.168.1.174:55557 [200]: /index.php
+[Thu Jan 11 10:26:37 2024] 192.168.1.174:55667 [200]: /index.php
+[Thu Jan 11 10:27:10 2024] 192.168.1.174:55668 [200]: /index.php
+[Thu Jan 11 10:28:45 2024] 192.168.1.174:55843 [200]: /index.php
+[Thu Jan 11 10:31:44 2024] 192.168.1.174:56026 [200]: /index.php
+[Thu Jan 11 10:45:06 2024] 192.168.1.174:56881 [200]: /index.php
+[Thu Jan 11 10:48:24 2024] 192.168.1.174:57109 [200]: /index.php - Uncaught Error: Call to a member function query() on bool in /home/pi/mars-admin/fritzbox-yaf/php-traffic-stats/index.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/pi/mars-admin/fritzbox-yaf/php-traffic-stats/index.php on line 96
+[Thu Jan 11 10:48:24 2024] 192.168.1.174:57108 [404]: /favicon.ico - No such file or directory
+[Thu Jan 11 10:48:48 2024] 192.168.1.174:57123 [200]: /index.php
+[Thu Jan 11 10:48:49 2024] 192.168.1.174:57124 [404]: /favicon.ico - No such file or directory
+[Thu Jan 11 10:55:43 2024] 192.168.1.174:57477 [200]: /traffic-month.php
+[Thu Jan 11 10:57:28 2024] 192.168.1.174:57570 [200]: /traffic-today.php
+[Thu Jan 11 10:57:31 2024] 192.168.1.174:57571 [200]: /traffic-month.php
+[Thu Jan 11 10:58:14 2024] 192.168.1.174:57648 [200]: /traffic-month.php
+[Thu Jan 11 10:58:14 2024] 192.168.1.174:57649 [404]: /favicon.ico - No such file or directory
+[Thu Jan 11 10:58:15 2024] 192.168.1.174:57651 [200]: /traffic-month.php
+[Thu Jan 11 10:58:15 2024] 192.168.1.174:57650 [404]: /favicon.ico - No such file or directory
+PHP 7.3.31-1~deb10u5 Development Server started at Thu Jan 11 10:58:05 2024
+Listening on http://192.168.1.9:8000
+Document root is /home/pi/mars-admin/fritzbox-yaf/php-traffic-stats
+Press Ctrl-C to quit.
+[Thu Jan 11 11:09:37 2024] 192.168.1.174:58073 [200]: /traffic-month.php
+[Thu Jan 11 11:10:05 2024] 192.168.1.9:40852 [200]: /traffic-month.php
+[Thu Jan 11 11:10:05 2024] 192.168.1.174:58072 [404]: /favicon.ico - No such file or directory
+[Thu Jan 11 11:11:13 2024] 192.168.1.9:40854 [200]: /traffic-month.php
+[Thu Jan 11 11:11:53 2024] 192.168.1.9:40856 [200]: /traffic-month.php
+[Thu Jan 11 11:12:59 2024] 192.168.1.174:58195 [200]: /traffic-today.php

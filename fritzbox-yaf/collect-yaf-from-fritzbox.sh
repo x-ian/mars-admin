@@ -65,7 +65,7 @@ echo "Capturing traffic on Fritz!Box interface $IFACE ..." 1>&2
 
 #wget --no-check-certificate  $FRITZIP/cgi-bin/capture_notimeout?ifaceorminor=$IFACE\&snaplen=\&capture=Start\&sid=$SID  | yaf --in - --out ./tmp.yaf --noerror 
 
-curl  $FRITZIP/cgi-bin/capture_notimeout?ifaceorminor=$IFACE\&snaplen=\&capture=Start\&sid=$SID  | yaf --mac --in - --out $BASEDIR/yaf/yaf --log $BASEDIR/yaf.log --rotate 300
+curl  $FRITZIP/cgi-bin/capture_notimeout?ifaceorminor=$IFACE\&snaplen=\&capture=Start\&sid=$SID  | yaf --mac --in - --out $BASEDIR/yaf/yaf --log $BASEDIR/yaf.log --rotate 60 
 
 #curl  $FRITZIP/cgi-bin/capture_notimeout?ifaceorminor=$IFACE\&snaplen=\&capture=Start\&sid=$SID  | yaf --mac --in - --out ./yaf/yaf --log ./yaf.log --verbose --rotate 30 --stats 45 --idle-timeout 15 --active-timeout 15 --loglevel  info
 

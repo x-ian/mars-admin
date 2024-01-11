@@ -5,7 +5,7 @@ import sys
 from datetime import datetime
 
 def is_local_ip(ip):
-    return ip.startswith('192.168.') or ip.startswith('172.16.')
+    return ip.startswith('192.168.') or ip.startswith('172.16.') or ip.startswith('2a03:9b40:20e7:7900:')
     
 def is_remote_ip(ip):
     return not is_local_ip(ip)
@@ -22,8 +22,8 @@ with open(sys.argv[1]) as fp:
     #day = time.strftime('%Y-%m-%d')
     for line in fp:
         t = line.split('|')
-#        day = t[1].strip()
-        day = t[1].split(' ')[0]
+        day = t[1].strip()
+#        day = t[1].split(' ')[0]
         sip=t[5].strip()
         dip=t[7].strip()
         srcMac=t[9].strip()
