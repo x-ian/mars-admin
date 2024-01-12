@@ -143,7 +143,7 @@ if ($result = $mysqli->query('
 	
 	) a
 
-	where download > 0 and upload > 0
+--	where download > 0 and upload > 0
 	group by  mac
 	
 	 ORDER BY 
@@ -211,12 +211,12 @@ if ($result = $mysqli->query('
 					<th><a href="index.php?column=mac_vendor&order=<?php echo $asc_or_desc; ?>">MAC&nbsp;vendor<i class="fas fa-sort<?php echo $column == 'mac_vendor' ? '-' . $up_or_down : ''; ?>"></i></a></th>
 					<th><a href="index.php?column=today_down&order=<?php echo $asc_or_desc; ?>">Today&nbsp;&darr;<i class="fas fa-sort<?php echo $column == 'today_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
 					<th><a href="index.php?column=today_up&order=<?php echo $asc_or_desc; ?>">Today&nbsp;&uarr;<i class="fas fa-sort<?php echo $column == 'today_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-					<th><a href="index.php?column=yesterday_down&order=<?php echo $asc_or_desc; ?>">Yesterday down<i class="fas fa-sort<?php echo $column == 'yesterday_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-					<th><a href="index.php?column=yesterday_up&order=<?php echo $asc_or_desc; ?>">Yesterday up<i class="fas fa-sort<?php echo $column == 'yesterday_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-					<th><a href="index.php?column=lastweek_down&order=<?php echo $asc_or_desc; ?>">Last week down<i class="fas fa-sort<?php echo $column == 'lastweek_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-					<th><a href="index.php?column=lastweek_up&order=<?php echo $asc_or_desc; ?>">Last week up<i class="fas fa-sort<?php echo $column == 'lastweek_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-					<th><a href="index.php?column=lastmonth_down&order=<?php echo $asc_or_desc; ?>">Last month down<i class="fas fa-sort<?php echo $column == 'lastmonth_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
-					<th><a href="index.php?column=lastmonth_up&order=<?php echo $asc_or_desc; ?>">Last month up<i class="fas fa-sort<?php echo $column == 'lastmonth_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+					<th><a href="index.php?column=yesterday_down&order=<?php echo $asc_or_desc; ?>">Yesterday&nbsp;&darr;<i class="fas fa-sort<?php echo $column == 'yesterday_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+					<th><a href="index.php?column=yesterday_up&order=<?php echo $asc_or_desc; ?>">Yesterday&nbsp;&uarr;<i class="fas fa-sort<?php echo $column == 'yesterday_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+					<th><a href="index.php?column=lastweek_down&order=<?php echo $asc_or_desc; ?>">Last&nbsp;week&nbsp;&darr;<i class="fas fa-sort<?php echo $column == 'lastweek_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+					<th><a href="index.php?column=lastweek_up&order=<?php echo $asc_or_desc; ?>">Last&nbsp;week&nbsp;&uarr;<i class="fas fa-sort<?php echo $column == 'lastweek_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+					<th><a href="index.php?column=lastmonth_down&order=<?php echo $asc_or_desc; ?>">Last&nbsp;month&nbsp;&darr;<i class="fas fa-sort<?php echo $column == 'lastmonth_down' ? '-' . $up_or_down : ''; ?>"></i></a></th>
+					<th><a href="index.php?column=lastmonth_up&order=<?php echo $asc_or_desc; ?>">Last&nbsp;month&nbsp;&uarr;<i class="fas fa-sort<?php echo $column == 'lastmonth_up' ? '-' . $up_or_down : ''; ?>"></i></a></th>
 					<th><a href="index.php?column=last_active&order=<?php echo $asc_or_desc; ?>">Last&nbsp;active<i class="fas fa-sort<?php echo $column == 'last_active' ? '-' . $up_or_down : ''; ?>"></i></a></th>
 					<th><a href="index.php?column=ip&order=<?php echo $asc_or_desc; ?>">IP<i class="fas fa-sort<?php echo $column == 'ip' ? '-' . $up_or_down : ''; ?>"></i></a></th>
 					<th><a href="index.php?column=mac&order=<?php echo $asc_or_desc; ?>">MAC<i class="fas fa-sort<?php echo $column == 'mac' ? '-' . $up_or_down : ''; ?>"></i></a></th>

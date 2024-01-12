@@ -151,13 +151,13 @@ if ($result = $mysqli->query('
 	from traffic_details_full   
 	left join ip_registry on traffic_details_full.remote_ip = ip_registry.ip   
 	left join local_hosts on traffic_details_full.mac = local_hosts.mac 
-	where DATE(ts)=CURDATE()
+	where DATE(ts)=CURDATE() 
 	group by mac  
 
 	
 	) a
 
-	where download > 0 and upload > 0
+--	where download > 0 and upload > 0
 	group by  mac
 	
 	 ORDER BY 
