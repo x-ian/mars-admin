@@ -1,17 +1,9 @@
 <?php
 
-// parse marsPortal config file
-$fh=fopen("/home/pi/mars-admin/config.txt", "r");
-while ($line=fgets($fh, 80)) {
-  if (!preg_match('/^#/', $line) && preg_match('/=/', $line)) {
-    $line_a=explode("=", $line);
-	$param = preg_replace( "/\r|\n/", "", $line_a[0] );
-	$value = preg_replace( "/\r|\n/", "", $line_a[1] );
-    ${$param}=$value;
-  }
-}
- 
-$mysqli = mysqli_connect('localhost', $MYSQL_USER, $MYSQL_PASSWD, $MYSQL_DB);
+include('common.php'); 
+
+header("Cache-Control: no-cache, must-revalidate"); // HTTP/1.1
+header("Expires: Sat, 26 Jul 1997 05:00:00 GMT"); // Date in the past to bypass browser caching
 
 // For extra protection these are the columns that the user can sort by (in your database table).
 $columns = array('mac','ip','hostname' /*,'last15mins_down','last15mins_up','last30mins_down','last30mins_up'*/,'lasthour_down','lasthour_up','last2hours_down','last2hours_up','last4hours_down','last4hours_up','today_down','today_up'); //,'yesterday_down','yesterday_up','lastweek_down','lastweek_up','lastmonth_down','lastmonth_up');
@@ -172,6 +164,11 @@ if ($result = $mysqli->query('
 	<!DOCTYPE html>
 	<html>
 		<head>
+			
+			  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+			  <link href="./application.css" rel="stylesheet" type="text/css" />
+			  <script src="./application.js"></script>
+			
 			<title>mars:portal traffic summary</title>
 			<meta charset="utf-8">
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -218,7 +215,7 @@ if ($result = $mysqli->query('
 			}
 			</style>
 		</head>
-		<body>
+<body class="visualize_text">
 			<table>
 				<tr>
 					<th><a href="index.php?column=hostname&order=<?php echo $asc_or_desc; ?>">Hostname<i class="fas fa-sort<?php echo $column == 'hostname' ? '-' . $up_or_down : ''; ?>"></i></a></th>
@@ -248,29 +245,29 @@ if ($result = $mysqli->query('
 				</tr>
 				<?php while ($row = $result->fetch_assoc()): ?>
 				<tr>
-					<td<?php echo $column == 'hostname' ? $add_class : ''; ?>><?php echo $row['hostname']; ?></td>
-					<td<?php echo $column == 'mac_vendor' ? $add_class : ''; ?>><?php echo $row['mac_vendor']; ?></td>
+					<td <?php echo $column == 'hostname' ? $add_class : ''; ?>><?php echo $row['hostname']; ?><?=dropdown_link_to_device($row['mac'])?></td>
+					<td <?php echo $column == 'mac_vendor' ? $add_class : ''; ?>><?php echo $row['mac_vendor']; ?></td>
 					<!-- <td<?php echo $column == 'last15mins_down' ? $add_class : ''; ?>><?php echo $row['last15mins_down']; ?></td>
 					<td<?php echo $column == 'last15mins_up' ? $add_class : ''; ?>><?php echo $row['last15mins_up']; ?></td>
 					<td<?php echo $column == 'last30mins_down' ? $add_class : ''; ?>><?php echo $row['last30mins_down']; ?></td>
 					<td<?php echo $column == 'last30mins_up' ? $add_class : ''; ?>><?php echo $row['last30mins_up']; ?></td> -->
-					<td<?php echo $column == 'lasthour_down' ? $add_class : ''; ?>><?php echo $row['lasthour_down']; ?></td>
-					<td<?php echo $column == 'lasthour_up' ? $add_class : ''; ?>><?php echo $row['lasthour_up']; ?></td>
-					<td<?php echo $column == 'last2hours_down' ? $add_class : ''; ?>><?php echo $row['last2hours_down']; ?></td>
-					<td<?php echo $column == 'last2hours_up' ? $add_class : ''; ?>><?php echo $row['last2hours_up']; ?></td>
-					<td<?php echo $column == 'last4hours_down' ? $add_class : ''; ?>><?php echo $row['last4hours_down']; ?></td>
-					<td<?php echo $column == 'last4hours_up' ? $add_class : ''; ?>><?php echo $row['last4hours_up']; ?></td>
-					<td<?php echo $column == 'today_down' ? $add_class : ''; ?>><?php echo $row['today_down']; ?></td>
-					<td<?php echo $column == 'today_up' ? $add_class : ''; ?>><?php echo $row['today_up']; ?></td>
+					<td <?php echo $column == 'lasthour_down' ? $add_class : ''; ?>><?php echo $row['lasthour_down']; ?></td>
+					<td <?php echo $column == 'lasthour_up' ? $add_class : ''; ?>><?php echo $row['lasthour_up']; ?></td>
+					<td <?php echo $column == 'last2hours_down' ? $add_class : ''; ?>><?php echo $row['last2hours_down']; ?></td>
+					<td <?php echo $column == 'last2hours_up' ? $add_class : ''; ?>><?php echo $row['last2hours_up']; ?></td>
+					<td <?php echo $column == 'last4hours_down' ? $add_class : ''; ?>><?php echo $row['last4hours_down']; ?></td>
+					<td <?php echo $column == 'last4hours_up' ? $add_class : ''; ?>><?php echo $row['last4hours_up']; ?></td>
+					<td <?php echo $column == 'today_down' ? $add_class : ''; ?>><?php echo $row['today_down']; ?></td>
+					<td <?php echo $column == 'today_up' ? $add_class : ''; ?>><?php echo $row['today_up']; ?></td>
 					<!-- <td<?php echo $column == 'yesterday_down' ? $add_class : ''; ?>><?php echo $row['yesterday_down']; ?></td>
 					<td<?php echo $column == 'yesterday_up' ? $add_class : ''; ?>><?php echo $row['yesterday_up']; ?></td>
 					<td<?php echo $column == 'lastweek_down' ? $add_class : ''; ?>><?php echo $row['lastweek_down']; ?></td>
 					<td<?php echo $column == 'lastweek_up' ? $add_class : ''; ?>><?php echo $row['lastweek_up']; ?></td>
 					<td<?php echo $column == 'lastmonth_down' ? $add_class : ''; ?>><?php echo $row['lastmonth_down']; ?></td>
 					<td<?php echo $column == 'lastmonth_up' ? $add_class : ''; ?>><?php echo $row['lastmonth_up']; ?></td> -->
-					<td<?php echo $column == 'last_active' ? $add_class : ''; ?>><?php echo $row['last_active']; ?></td>
-					<td<?php echo $column == 'ip' ? $add_class : ''; ?>><?php echo $row['ip']; ?></td>
-					<td<?php echo $column == 'mac' ? $add_class : ''; ?>><?php echo $row['mac']; ?></td>
+					<td <?php echo $column == 'last_active' ? $add_class : ''; ?>><?php echo $row['last_active']; ?></td>
+					<td <?php echo $column == 'ip' ? $add_class : ''; ?>><?php echo $row['ip']; ?></td>
+					<td <?php echo $column == 'mac' ? $add_class : ''; ?>><?php echo $row['mac']; ?></td>
 				</tr>
 				<?php endwhile; ?>
 			</table>

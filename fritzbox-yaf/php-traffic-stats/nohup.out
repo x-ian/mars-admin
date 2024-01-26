@@ -1,0 +1,250 @@
+[Tue Jan 16 08:29:51 2024] 192.168.1.174:64096 [200]: /traffic-today.php
+[Tue Jan 16 08:29:51 2024] 192.168.1.174:64097 [200]: /application.css
+[Tue Jan 16 08:29:51 2024] 192.168.1.174:64100 [200]: /application.js
+[Tue Jan 16 08:30:52 2024] 192.168.1.174:64130 [200]: /traffic-today.php
+[Tue Jan 16 08:30:52 2024] 192.168.1.174:64131 [200]: /application.css
+[Tue Jan 16 08:30:52 2024] 192.168.1.174:64134 [200]: /application.js
+[Tue Jan 16 08:31:11 2024] 192.168.1.174:64185 [200]: /application.css
+[Tue Jan 16 08:31:11 2024] 192.168.1.174:64186 [200]: /application.js
+[Tue Jan 16 08:31:12 2024] 192.168.1.174:64192 [404]: /favicon.ico - No such file or directory
+[Tue Jan 16 08:31:18 2024] 192.168.1.174:64555 [200]: /application.css
+[Tue Jan 16 08:31:18 2024] 192.168.1.174:64554 [200]: /application.js
+[Tue Jan 16 10:11:04 2024] 192.168.1.174:54161 [200]: /traffic-today.php
+[Tue Jan 16 10:11:05 2024] 192.168.1.174:54162 [200]: /application.css
+[Tue Jan 16 10:11:05 2024] 192.168.1.174:54168 [200]: /application.js
+[Tue Jan 16 10:11:40 2024] 192.168.1.174:54189 [200]: /traffic-today.php
+[Tue Jan 16 10:12:35 2024] 192.168.1.174:54188 [200]: /traffic-month.php
+[Tue Jan 16 10:13:30 2024] 192.168.1.174:54215 [200]: /traffic-month.php
+[Tue Jan 16 12:29:09 2024] 192.168.1.174:60229 [200]: /traffic-today.php
+[Tue Jan 16 12:29:10 2024] 192.168.1.174:60230 [200]: /application.css
+[Tue Jan 16 12:29:10 2024] 192.168.1.174:60234 [200]: /application.js
+[Tue Jan 16 12:30:20 2024] 192.168.1.174:60292 [200]: /traffic-today.php
+[Tue Jan 16 12:30:20 2024] 192.168.1.174:60293 [200]: /application.css
+[Tue Jan 16 12:30:20 2024] 192.168.1.174:60296 [200]: /application.js
+[Tue Jan 16 12:58:23 2024] Failed to listen on 192.168.1.9:8000 (reason: Address already in use)
+[Tue Jan 16 15:13:38 2024] 192.168.1.174:65270 [200]: /traffic-today.php
+[Tue Jan 16 15:13:38 2024] 192.168.1.174:65271 [200]: /application.css
+[Tue Jan 16 15:13:38 2024] 192.168.1.174:65272 [200]: /application.js
+[Tue Jan 16 16:47:23 2024] 192.168.1.174:50361 [200]: /application.css
+[Tue Jan 16 16:47:23 2024] 192.168.1.174:50360 [200]: /application.js
+[Tue Jan 16 16:47:25 2024] 192.168.1.174:50365 [200]: /traffic-today.php
+[Tue Jan 16 16:47:25 2024] 192.168.1.174:50364 [200]: /application.css
+[Tue Jan 16 16:47:25 2024] 192.168.1.174:50366 [200]: /application.js
+[Tue Jan 16 23:55:03 2024] 192.168.1.9:55510 [200]: /traffic-month.php
+[Wed Jan 17 08:40:55 2024] 192.168.1.174:51358 [200]: /traffic-today.php
+[Wed Jan 17 08:40:55 2024] 192.168.1.174:51357 [200]: /application.css
+[Wed Jan 17 08:40:55 2024] 192.168.1.174:51359 [200]: /application.js
+[Wed Jan 17 22:19:05 2024] 192.168.1.174:54647 [200]: /traffic-today.php
+[Wed Jan 17 22:19:05 2024] 192.168.1.174:54648 [200]: /application.css
+[Wed Jan 17 22:19:05 2024] 192.168.1.174:54652 [200]: /application.js
+[Wed Jan 17 23:55:06 2024] 192.168.1.9:56154 [200]: /traffic-month.php
+[Thu Jan 18 13:03:45 2024] 192.168.1.174:53654 [200]: /traffic-today.php
+[Thu Jan 18 13:03:45 2024] 192.168.1.174:53655 [200]: /application.css
+[Thu Jan 18 13:03:45 2024] 192.168.1.174:53657 [200]: /application.js
+[Thu Jan 18 13:03:46 2024] 192.168.1.174:53659 [404]: /favicon.ico - No such file or directory
+[Thu Jan 18 16:42:18 2024] 192.168.1.174:60697 [200]: /traffic-today.php
+[Thu Jan 18 16:42:18 2024] 192.168.1.174:60698 [200]: /application.css
+[Thu Jan 18 16:42:18 2024] 192.168.1.174:60702 [200]: /application.js
+[Thu Jan 18 17:36:19 2024] 192.168.1.174:49309 [200]: /traffic-today.php
+[Thu Jan 18 17:36:20 2024] 192.168.1.174:49308 [200]: /application.css
+[Thu Jan 18 17:36:20 2024] 192.168.1.174:49315 [200]: /application.js
+[Thu Jan 18 17:49:26 2024] 192.168.1.174:50466 [200]: /device-activity.php?mac=8e:2a:76:e8:c6:27
+[Thu Jan 18 17:50:10 2024] 192.168.1.174:50469 [404]: /mars/reports/device_with_volume.php?username=94:d3:31:3f:ba:63 - No such file or directory
+[Thu Jan 18 17:50:16 2024] 192.168.1.174:50478 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Thu Jan 18 17:50:46 2024] 192.168.1.174:50534 [200]: /device-traffic-details.php?mac=8e:2a:76:e8:c6:27
+[Thu Jan 18 17:50:46 2024] 192.168.1.174:50581 [200]: /application.js
+[Thu Jan 18 17:50:46 2024] 192.168.1.174:50548 [200]: /application.css
+[Thu Jan 18 17:51:18 2024] 192.168.1.174:50601 [200]: /device-traffic-details.php?mac=f4:0f:24:21:28:da
+[Thu Jan 18 17:51:18 2024] 192.168.1.174:50627 [200]: /application.js
+[Thu Jan 18 17:51:18 2024] 192.168.1.174:50600 [200]: /application.css
+[Thu Jan 18 17:51:44 2024] 192.168.1.174:50651 [200]: /device-traffic-details.php?mac=6c:b1:33:a2:d1:20
+[Thu Jan 18 17:51:44 2024] 192.168.1.174:50662 [200]: /application.js
+[Thu Jan 18 17:51:44 2024] 192.168.1.174:50650 [200]: /application.css
+[Thu Jan 18 17:52:06 2024] 192.168.1.174:50689 [200]: /device-traffic-details.php?mac=94:58:cb:fc:15:d8
+[Thu Jan 18 17:52:06 2024] 192.168.1.174:50699 [200]: /application.js
+[Thu Jan 18 17:52:06 2024] 192.168.1.174:50688 [200]: /application.css
+[Thu Jan 18 17:52:22 2024] 192.168.1.174:50717 [200]: /device-traffic-details.php?mac=dc:fe:23:36:60:70
+[Thu Jan 18 17:52:22 2024] 192.168.1.174:50723 [200]: /application.js
+[Thu Jan 18 17:52:22 2024] 192.168.1.174:50716 [200]: /application.css
+[Thu Jan 18 17:52:41 2024] 192.168.1.174:50742 [200]: /device-traffic-details.php?mac=1c:bf:c0:16:dd:b3
+[Thu Jan 18 17:52:41 2024] 192.168.1.174:50749 [200]: /application.js
+[Thu Jan 18 17:52:41 2024] 192.168.1.174:50741 [200]: /application.css
+[Thu Jan 18 21:21:20 2024] 192.168.1.174:62936 [200]: /traffic-today.php
+[Thu Jan 18 21:21:20 2024] 192.168.1.174:62937 [200]: /application.css
+[Thu Jan 18 21:21:20 2024] 192.168.1.174:62942 [200]: /application.js
+[Thu Jan 18 21:26:45 2024] 192.168.1.174:63272 [200]: /device-traffic-details.php?mac=94:d3:31:3f:ba:63
+[Thu Jan 18 21:26:45 2024] 192.168.1.174:63274 [200]: /application.js
+[Thu Jan 18 21:26:45 2024] 192.168.1.174:63271 [200]: /application.css
+[Thu Jan 18 21:27:00 2024] 192.168.1.174:63288 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Thu Jan 18 23:55:10 2024] 192.168.1.9:53392 [200]: /traffic-month.php
+[Fri Jan 19 10:52:31 2024] 192.168.1.174:56569 [200]: /traffic-today.php
+[Fri Jan 19 10:52:31 2024] 192.168.1.174:56570 [200]: /application.css
+[Fri Jan 19 10:52:31 2024] 192.168.1.174:56572 [200]: /application.js
+[Fri Jan 19 11:55:37 2024] 192.168.1.174:60687 [200]: /traffic-today.php
+[Fri Jan 19 11:55:37 2024] 192.168.1.174:60686 [200]: /application.css
+[Fri Jan 19 11:55:37 2024] 192.168.1.174:60689 [200]: /application.js
+[Fri Jan 19 12:47:38 2024] 192.168.1.174:63827 [200]: /traffic-today.php
+[Fri Jan 19 12:47:39 2024] 192.168.1.174:63828 [200]: /application.css
+[Fri Jan 19 12:47:39 2024] 192.168.1.174:63834 [200]: /application.js
+[Fri Jan 19 23:02:18 2024] 192.168.1.174:57728 [200]: /traffic-today.php
+[Fri Jan 19 23:02:18 2024] 192.168.1.174:57727 [200]: /application.css
+[Fri Jan 19 23:02:18 2024] 192.168.1.174:57731 [200]: /application.js
+[Fri Jan 19 23:55:13 2024] 192.168.1.9:54040 [200]: /traffic-month.php
+[Sat Jan 20 12:52:26 2024] 192.168.1.174:53708 [200]: /traffic-today.php
+[Sat Jan 20 12:52:26 2024] 192.168.1.174:53709 [200]: /application.css
+[Sat Jan 20 12:52:26 2024] 192.168.1.174:53715 [200]: /application.js
+[Sat Jan 20 22:48:31 2024] 192.168.1.174:54286 [200]: /traffic-today.php
+[Sat Jan 20 22:48:31 2024] 192.168.1.174:54287 [200]: /application.css
+[Sat Jan 20 22:48:31 2024] 192.168.1.174:54293 [200]: /application.js
+[Sat Jan 20 22:48:37 2024] 192.168.1.174:54299 [200]: /device-activity.php?mac=6e:11:dc:ce:ec:c4
+[Sat Jan 20 22:48:42 2024] 192.168.1.174:54300 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Sat Jan 20 23:55:15 2024] 192.168.1.9:54632 [200]: /traffic-month.php
+[Sun Jan 21 10:00:12 2024] 192.168.1.174:61784 [200]: /traffic-today.php
+[Sun Jan 21 10:00:12 2024] 192.168.1.174:61783 [200]: /application.css
+[Sun Jan 21 10:00:12 2024] 192.168.1.174:61787 [200]: /application.js
+[Sun Jan 21 10:00:21 2024] 192.168.1.174:61796 [200]: /device-activity.php?mac=f4:0f:24:21:28:da
+[Sun Jan 21 10:00:38 2024] 192.168.1.174:61797 [200]: /device-traffic-details.php?mac=f4:0f:24:21:28:da
+[Sun Jan 21 10:00:38 2024] 192.168.1.174:61818 [200]: /application.js
+[Sun Jan 21 10:00:38 2024] 192.168.1.174:61813 [200]: /application.css
+[Sun Jan 21 14:08:59 2024] 192.168.1.174:60198 [200]: /application.css
+[Sun Jan 21 14:09:03 2024] 192.168.1.174:60197 [200]: /traffic-today.php
+[Sun Jan 21 14:09:04 2024] 192.168.1.174:60203 [200]: /application.css
+[Sun Jan 21 14:09:04 2024] 192.168.1.174:60205 [200]: /application.js
+[Sun Jan 21 17:05:47 2024] 192.168.1.174:65164 [200]: /traffic-today.php
+[Sun Jan 21 17:05:47 2024] 192.168.1.174:65165 [200]: /application.css
+[Sun Jan 21 17:05:47 2024] 192.168.1.174:65167 [200]: /application.js
+[Sun Jan 21 21:33:24 2024] 192.168.1.174:61383 [200]: /application.css
+[Sun Jan 21 21:33:24 2024] 192.168.1.174:61382 [200]: /application.js
+[Sun Jan 21 21:33:28 2024] 192.168.1.174:61389 [200]: /traffic-today.php
+[Sun Jan 21 21:33:28 2024] 192.168.1.174:61390 [200]: /application.css
+[Sun Jan 21 21:33:28 2024] 192.168.1.174:61392 [200]: /application.js
+[Sun Jan 21 21:33:41 2024] 192.168.1.174:61401 [200]: /device-traffic-details.php?mac=8e:2a:76:e8:c6:27
+[Sun Jan 21 21:33:41 2024] 192.168.1.174:61402 [200]: /application.css
+[Sun Jan 21 21:33:41 2024] 192.168.1.174:61403 [200]: /application.js
+[Sun Jan 21 21:34:11 2024] 192.168.1.174:61437 [200]: /device-activity.php?mac=8e:2a:76:e8:c6:27
+[Sun Jan 21 21:34:29 2024] 192.168.1.174:61436 [200]: /device-traffic-details.php?mac=8e:2a:76:e8:c6:27
+[Sun Jan 21 21:34:29 2024] 192.168.1.174:61455 [200]: /application.css
+[Sun Jan 21 21:34:29 2024] 192.168.1.174:61461 [200]: /application.js
+[Sun Jan 21 22:15:29 2024] 192.168.1.174:63383 [200]: /traffic-today.php
+[Sun Jan 21 22:15:29 2024] 192.168.1.174:63382 [200]: /application.css
+[Sun Jan 21 22:15:29 2024] 192.168.1.174:63389 [200]: /application.js
+[Sun Jan 21 22:42:31 2024] 192.168.1.174:65083 [200]: /traffic-today.php
+[Sun Jan 21 22:42:31 2024] 192.168.1.174:65084 [200]: /application.css
+[Sun Jan 21 22:42:31 2024] 192.168.1.174:65086 [200]: /application.js
+[Sun Jan 21 22:42:41 2024] 192.168.1.174:65100 [200]: /device-activity.php?mac=14:49:d4:46:df:fa
+[Sun Jan 21 22:42:51 2024] 192.168.1.174:65099 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Sun Jan 21 22:42:56 2024] 192.168.1.174:65105 [200]: /device-activity.php?mac=8e:2a:76:e8:c6:27
+[Sun Jan 21 22:43:09 2024] 192.168.1.174:65114 [200]: /device-activity.php?mac=f4:0f:24:21:28:da
+[Sun Jan 21 23:55:17 2024] 192.168.1.9:55290 [200]: /traffic-month.php
+[Mon Jan 22 23:55:20 2024] 192.168.1.9:55956 [200]: /traffic-month.php
+[Tue Jan 23 16:33:50 2024] 192.168.1.174:62146 [200]: /traffic-today.php
+[Tue Jan 23 16:33:50 2024] 192.168.1.174:62145 [200]: /application.css
+[Tue Jan 23 16:33:50 2024] 192.168.1.174:62155 [200]: /application.js
+[Tue Jan 23 16:34:47 2024] 192.168.1.174:62221 [404]: /index.php?column=mac_vendor&order=ASC - No such file or directory
+[Tue Jan 23 16:35:02 2024] 192.168.1.174:62222 [200]: /device-traffic-details.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 16:35:02 2024] 192.168.1.174:62234 [200]: /application.js
+[Tue Jan 23 16:35:02 2024] 192.168.1.174:62224 [200]: /application.css
+[Tue Jan 23 17:15:08 2024] 192.168.1.174:64246 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:17:57 2024] 192.168.1.174:64485 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:18:01 2024] 192.168.1.174:64484 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:18:02 2024] 192.168.1.174:64491 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:19:29 2024] 192.168.1.174:64592 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:19:29 2024] 192.168.1.174:64591 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:21:21 2024] 192.168.1.174:64764 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:21:21 2024] 192.168.1.174:64763 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:22:11 2024] 192.168.1.174:64817 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:22:11 2024] 192.168.1.174:64816 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:22:45 2024] 192.168.1.174:64859 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:22:45 2024] 192.168.1.174:64860 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:26:03 2024] 192.168.1.174:65080 [200]: /device-activity.php?mac=6e:11:dc:ce:ec:c4
+[Tue Jan 23 17:29:29 2024] 192.168.1.174:65323 [200]: /device-activity.php?mac=6e:11:dc:ce:ec:c4 - syntax error, unexpected 'elseif' (T_ELSEIF) in /home/pi/mars-admin/fritzbox-yaf/php-traffic-stats/device-activity.php on line 246
+[Tue Jan 23 17:29:29 2024] 192.168.1.174:65322 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:30:01 2024] 192.168.1.174:65360 [200]: /device-activity.php?mac=6e:11:dc:ce:ec:c4
+[Tue Jan 23 17:30:01 2024] 192.168.1.174:65359 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:30:18 2024] 192.168.1.174:65378 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:31:22 2024] 192.168.1.174:65458 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:31:22 2024] 192.168.1.174:65457 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:32:26 2024] 192.168.1.174:65534 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:32:26 2024] 192.168.1.174:65535 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:33:56 2024] 192.168.1.174:49254 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:33:56 2024] 192.168.1.174:49255 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:33:58 2024] 192.168.1.174:49256 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:33:58 2024] 192.168.1.174:49257 [404]: /favicon.ico - No such file or directory
+[Tue Jan 23 17:34:33 2024] 192.168.1.174:49304 [200]: /device-activity.php?mac=6e:11:dc:ce:ec:c4
+[Tue Jan 23 17:35:03 2024] 192.168.1.174:49303 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Tue Jan 23 17:50:42 2024] 192.168.1.174:50202 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Tue Jan 23 17:50:51 2024] 192.168.1.174:50201 [200]: /device-activity.php?mac=94:d3:31:3f:ba:63
+[Tue Jan 23 17:50:56 2024] 192.168.1.174:50204 [200]: /device-activity.php?mac=8e:2a:76:e8:c6:27
+[Tue Jan 23 23:28:58 2024] 192.168.1.174:53497 [200]: /traffic-today.php
+[Tue Jan 23 23:28:58 2024] 192.168.1.174:53496 [200]: /application.css
+[Tue Jan 23 23:28:58 2024] 192.168.1.174:53503 [200]: /application.js
+[Tue Jan 23 23:29:06 2024] 192.168.1.174:53513 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Tue Jan 23 23:55:23 2024] 192.168.1.9:56600 [200]: /traffic-month.php
+[Wed Jan 24 06:46:13 2024] 192.168.1.174:59819 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Wed Jan 24 07:45:40 2024] 192.168.1.174:62410 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Wed Jan 24 07:45:43 2024] 192.168.1.174:62409 [200]: /application.js
+[Wed Jan 24 21:08:36 2024] 192.168.1.174:60310 [200]: /traffic-today.php
+[Wed Jan 24 21:08:36 2024] 192.168.1.174:60309 [200]: /application.css
+[Wed Jan 24 21:08:36 2024] 192.168.1.174:60330 [200]: /application.js
+[Wed Jan 24 21:08:55 2024] 192.168.1.174:60352 [200]: /device-activity.php?mac=6c:b1:33:a2:d1:20
+[Wed Jan 24 23:55:25 2024] 192.168.1.9:57206 [200]: /traffic-month.php
+[Thu Jan 25 09:42:54 2024] 192.168.1.174:62254 [404]: /favicon.ico - No such file or directory
+[Thu Jan 25 23:55:26 2024] 192.168.1.9:57854 [200]: /traffic-month.php
+[Fri Jan 26 00:35:50 2024] 192.168.1.174:55040 [200]: /traffic-today.php
+[Fri Jan 26 00:35:50 2024] 192.168.1.174:55039 [200]: /application.css
+[Fri Jan 26 00:35:50 2024] 192.168.1.174:55041 [200]: /application.js
+[Fri Jan 26 00:36:00 2024] 192.168.1.174:55055 [200]: /device-activity.php?mac=14:49:d4:46:df:fa
+[Fri Jan 26 00:36:23 2024] 192.168.1.174:55056 [200]: /device-traffic-details.php?mac=94:d3:31:3f:ba:63
+[Fri Jan 26 00:36:23 2024] 192.168.1.174:55075 [200]: /application.js
+[Fri Jan 26 00:36:23 2024] 192.168.1.174:55061 [200]: /application.css
+[Fri Jan 26 07:53:40 2024] 192.168.1.174:61390 [200]: /traffic-today.php
+[Fri Jan 26 07:53:40 2024] 192.168.1.174:61391 [200]: /application.css
+[Fri Jan 26 07:53:40 2024] 192.168.1.174:61392 [200]: /application.js
+[Fri Jan 26 07:53:45 2024] 192.168.1.174:61397 [200]: /device-activity.php?mac=8e:2a:76:e8:c6:27
+[Fri Jan 26 07:55:37 2024] 192.168.1.174:61513 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 07:56:02 2024] 192.168.1.174:61512 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 07:56:02 2024] 192.168.1.174:61538 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 07:58:47 2024] 192.168.1.174:61707 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 07:58:47 2024] 192.168.1.174:61706 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 07:59:18 2024] 192.168.1.174:61742 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 07:59:18 2024] 192.168.1.174:61741 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 07:59:27 2024] 192.168.1.174:61751 [200]: /traffic-today.php
+[Fri Jan 26 07:59:27 2024] 192.168.1.174:61752 [200]: /application.css
+[Fri Jan 26 07:59:27 2024] 192.168.1.174:61753 [200]: /application.js
+[Fri Jan 26 07:59:31 2024] 192.168.1.174:61758 [200]: /device-activity.php?mac=8e:2a:76:e8:c6:27
+[Fri Jan 26 07:59:56 2024] 192.168.1.174:61759 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 07:59:56 2024] 192.168.1.174:61785 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:00:46 2024] 192.168.1.174:61840 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:00:47 2024] 192.168.1.174:61839 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:01:12 2024] 192.168.1.174:61866 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:01:12 2024] 192.168.1.174:61865 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:01:26 2024] 192.168.1.174:61884 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:01:26 2024] 192.168.1.174:61883 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:01:36 2024] 192.168.1.174:61895 [200]: /traffic-today.php
+[Fri Jan 26 08:01:36 2024] 192.168.1.174:61894 [200]: /application.css
+[Fri Jan 26 08:01:36 2024] 192.168.1.174:61896 [200]: /application.js
+[Fri Jan 26 08:07:24 2024] 192.168.1.174:62251 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:07:24 2024] 192.168.1.174:62252 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:08:16 2024] 192.168.1.174:62308 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:08:18 2024] 192.168.1.174:62307 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:08:18 2024] 192.168.1.174:62313 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:09:18 2024] 192.168.1.174:62373 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:11:24 2024] 192.168.1.174:62504 [200]: /network-activity.php?date=2024-01-26 - syntax error, unexpected '<', expecting end of file in /home/pi/mars-admin/fritzbox-yaf/php-traffic-stats/network-activity.php on line 33
+[Fri Jan 26 08:11:24 2024] 192.168.1.174:62505 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:11:35 2024] 192.168.1.174:62515 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:11:35 2024] 192.168.1.174:62514 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:13:02 2024] 192.168.1.174:62608 [200]: /network-activity.php?date=2024-01-26
+[Fri Jan 26 08:13:02 2024] 192.168.1.174:62607 [200]: /application.css
+[Fri Jan 26 08:13:02 2024] 192.168.1.174:62609 [200]: /application.js
+[Fri Jan 26 08:13:03 2024] 192.168.1.174:62611 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:13:35 2024] 192.168.1.174:62647 [200]: /network-activity.php?date=2024-01-25
+[Fri Jan 26 08:13:35 2024] 192.168.1.174:62648 [200]: /application.css
+[Fri Jan 26 08:13:35 2024] 192.168.1.174:62650 [200]: /application.js
+[Fri Jan 26 08:14:19 2024] 192.168.1.174:62695 [200]: /network-activity.php?date=2024-01-25
+[Fri Jan 26 08:14:19 2024] 192.168.1.174:62696 [200]: /application.css
+[Fri Jan 26 08:14:19 2024] 192.168.1.174:62697 [200]: /application.js
+[Fri Jan 26 08:14:19 2024] 192.168.1.174:62698 [404]: /favicon.ico - No such file or directory
+[Fri Jan 26 08:14:32 2024] 192.168.1.174:62713 [200]: /network-activity.php?date=2024-01-25
+[Fri Jan 26 08:14:32 2024] 192.168.1.174:62712 [200]: /application.css
+[Fri Jan 26 08:14:32 2024] 192.168.1.174:62714 [200]: /application.js
+[Fri Jan 26 08:14:33 2024] 192.168.1.174:62715 [404]: /favicon.ico - No such file or directory
