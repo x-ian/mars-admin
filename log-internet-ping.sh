@@ -8,6 +8,9 @@
 #    packet_loss varchar(50) not null,
 #    rtt_avg decimal(6,3) not null
 #);
+
+# -- log_internet_ping packet loss per day
+# select date(begin), sum(packet_loss <>'0%'), sum(packet_loss ='0%') from log_internet_ping where  begin>='2024-01-01'  group by date(begin);
  
 HOST=8.8.8.8
 LOG=/tmp/log-internet-ping.log

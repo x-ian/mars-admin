@@ -7,6 +7,8 @@
 #    up decimal(12,3) not null
 #);
 
+# -- select * from log_internet_speedtest where begin>'2024-02-01' ;
+
 LOG=/tmp/log-internet-speedtest.log
 
 BASEDIR=/home/pi/mars-admin
