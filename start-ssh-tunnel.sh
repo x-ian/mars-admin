@@ -9,6 +9,7 @@ source $BASEDIR/config.txt
 
 echo "Stopping all tunnels"
 /usr/bin/killall ssh
+/usr/bin/killall autossh
 /bin/sleep 120
 
 echo "Starting new tunnel, abort with CTRL-C"
